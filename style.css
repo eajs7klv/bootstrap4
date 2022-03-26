@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Kalam:wght@300&family=Merienda:wght@700&family=Praise&display=swap');
+
+.btn button{
+   background-color: transparent;
+   padding: 5px 20px;
+   border-color: orange;
+}
+.heading{
+    font-family: 'Merienda', cursive;
+
+}
+.icons i{
+    margin-right: 12px;
+}
+.box{
+    background: url(https://img.freepik.com/free-photo/big-hamburger-with-double-beef-french-fries_252907-8.jpg?size=626&ext=jpg)center/cover;
+    height:80vh;
+}
+.box_small1{
+    background: url(https://images.healthshots.com/healthshots/en/uploads/2021/02/19110437/Cut-fruits-1.jpg)center/cover;
+    height: 39.5vh;
+}
+.box_small2{
+    background: url(https://images.everydayhealth.com/images/ordinary-fruits-with-amazing-health-benefits-05-1440x810.jpg)center/cover;
+    height: 39.5vh;
+}
+.box3{
+    background: url(http://alanyacitygroup.com/wp-content/uploads/2020/03/turkish-meals-12.jpg)center/cover;
+    height: 80vh;
+}
+
+
+
+/* Adaptaion */
+@media(max-width:760px){
+    .btn button{
+        display: none;
+    }
+    .icons{
+        display: none;
+    }
+}
+/* @media(max-width:990px){
+    .box{
+        
+    }
+} */
